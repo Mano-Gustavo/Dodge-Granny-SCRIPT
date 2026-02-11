@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGet(
 ))()
 
 local Window = Library:CreateWindow({
-    Title = "Granny Auto Parry",
+    Title = "Dodge Granny - SCRIPT",
     Keybind = Enum.KeyCode.RightControl
 })
 
@@ -130,3 +130,4 @@ RunService.Heartbeat:Connect(function()
         end
     end
 end)
+
